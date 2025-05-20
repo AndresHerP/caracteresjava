@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="001B1B9A-E59B-84E9-2D10-AD266A28DF03" name="Cliente">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 13:54:06 UTC</createdTime>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<engineerTo>
+<item key="CC0F31B7-7C39-5111-CC09-C776A688B042" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Codcliente" id="52FC283C-354E-9069-EE32-A26E0B15F13A">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 13:54:28 UTC</createdTime>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<engineerTo>
+<item key="CC0F31B7-7C39-5111-CC09-C776A688B042" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="867469CB-CDDA-23AA-3D76-5C50308A7CFE">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 13:55:12 UTC</createdTime>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<engineerTo>
+<item key="CC0F31B7-7C39-5111-CC09-C776A688B042" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellidos" id="0B353AFA-BD14-1566-9668-EEC43E2977E7">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 13:55:32 UTC</createdTime>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<engineerTo>
+<item key="CC0F31B7-7C39-5111-CC09-C776A688B042" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dirección" id="D7AFFC23-B8FD-4D0C-5218-55B3DE9D1B7F">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 13:56:02 UTC</createdTime>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<engineerTo>
+<item key="CC0F31B7-7C39-5111-CC09-C776A688B042" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Municipio" id="0D0D30A0-1EA5-81F0-5AAA-71E511265BB0">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 13:56:11 UTC</createdTime>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<engineerTo>
+<item key="CC0F31B7-7C39-5111-CC09-C776A688B042" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="AEED6CC7-CF6C-0384-895C-C11C3C2B8FF1">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 13:56:26 UTC</createdTime>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<engineerTo>
+<item key="CC0F31B7-7C39-5111-CC09-C776A688B042" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="85F1D6EA-5614-4BBE-18DC-6C594DFD9835" name="Entity_1 PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 13:54:53 UTC</createdTime>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<engineerTo>
+<item key="CC0F31B7-7C39-5111-CC09-C776A688B042" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>52FC283C-354E-9069-EE32-A26E0B15F13A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

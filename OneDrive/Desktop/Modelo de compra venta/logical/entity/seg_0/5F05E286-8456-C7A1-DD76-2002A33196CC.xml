@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F05E286-8456-C7A1-DD76-2002A33196CC" name="Articulo">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:00:02 UTC</createdTime>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<engineerTo>
+<item key="CC0F31B7-7C39-5111-CC09-C776A688B042" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Codarticulo" id="28EC3A16-4E13-4379-6FDF-F1FE1F029E0F">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:00:19 UTC</createdTime>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<engineerTo>
+<item key="CC0F31B7-7C39-5111-CC09-C776A688B042" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="47DD4E37-CF50-50DC-397F-F3797E8BE681">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:00:35 UTC</createdTime>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<engineerTo>
+<item key="CC0F31B7-7C39-5111-CC09-C776A688B042" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="FC446302-274B-B9C3-FEF0-E1004334FB5D">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:00:44 UTC</createdTime>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<engineerTo>
+<item key="CC0F31B7-7C39-5111-CC09-C776A688B042" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Precio por unidad" id="2D591D3F-3D00-04F1-8C30-750FDF3E0FC2">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:00:59 UTC</createdTime>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<engineerTo>
+<item key="CC0F31B7-7C39-5111-CC09-C776A688B042" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Unidades en el stock" id="52DCD82D-5D79-AD4C-D1CF-B7B24DECD856">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:01:17 UTC</createdTime>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<engineerTo>
+<item key="CC0F31B7-7C39-5111-CC09-C776A688B042" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stock de seguridad" id="4DB040E4-EEC7-BCFD-4D32-87C404441D7C">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:01:32 UTC</createdTime>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<engineerTo>
+<item key="CC0F31B7-7C39-5111-CC09-C776A688B042" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imagen" id="4FBAB858-F76C-A456-7DE5-35CA25E44D94">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:01:47 UTC</createdTime>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<engineerTo>
+<item key="CC0F31B7-7C39-5111-CC09-C776A688B042" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BBA5F877-C08A-E25C-9A63-D3F866F7FEC2" name="Articulo PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:00:34 UTC</createdTime>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<engineerTo>
+<item key="CC0F31B7-7C39-5111-CC09-C776A688B042" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28EC3A16-4E13-4379-6FDF-F1FE1F029E0F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

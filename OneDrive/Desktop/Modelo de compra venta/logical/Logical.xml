@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="9A6702C4-0ED9-37EE-775E-F12AF6C95CD0" mainViewID="568BAF3B-297C-53C2-DBF1-0E999387A914">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 13:53:45 UTC</createdTime>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

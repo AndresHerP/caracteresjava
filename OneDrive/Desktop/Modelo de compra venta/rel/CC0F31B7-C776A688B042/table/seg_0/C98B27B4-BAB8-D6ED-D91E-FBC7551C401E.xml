@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C98B27B4-BAB8-D6ED-D91E-FBC7551C401E" name="Articulo">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>5F05E286-8456-C7A1-DD76-2002A33196CC</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codarticulo" id="04F88E18-C22D-4492-7D47-D534591AED71">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>28EC3A16-4E13-4379-6FDF-F1FE1F029E0F</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="C9A7EFE2-5A84-4990-CE74-5A696BC721D1">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>47DD4E37-CF50-50DC-397F-F3797E8BE681</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="6A02A58B-17AC-0180-6B7A-ADA10D6AD9CE">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>FC446302-274B-B9C3-FEF0-E1004334FB5D</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precio_por_unidad" id="2CC1B278-E457-AB53-B059-5D6ABE1A59D0">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>2D591D3F-3D00-04F1-8C30-750FDF3E0FC2</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Unidades_en_el_stock" id="5B07A003-BCD9-F546-3AAE-F7A6CAF42B37">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>52DCD82D-5D79-AD4C-D1CF-B7B24DECD856</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stock_de_seguridad" id="5E2FA374-873F-A875-4002-D2A64F447666">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>4DB040E4-EEC7-BCFD-4D32-87C404441D7C</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imagen" id="0EA19B13-5BFA-25A5-B1E3-8F443EA69629">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>4FBAB858-F76C-A456-7DE5-35CA25E44D94</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9084E84-8848-4B20-00A7-3E9A417CF913" name="Articulo_PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>BBA5F877-C08A-E25C-9A63-D3F866F7FEC2</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04F88E18-C22D-4492-7D47-D534591AED71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

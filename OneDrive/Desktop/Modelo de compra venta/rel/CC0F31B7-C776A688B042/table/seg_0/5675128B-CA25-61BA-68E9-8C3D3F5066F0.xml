@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5675128B-CA25-61BA-68E9-8C3D3F5066F0" name="Cliente">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>001B1B9A-E59B-84E9-2D10-AD266A28DF03</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codcliente" id="07D2474F-221C-E317-E78E-51D9D553840F">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>52FC283C-354E-9069-EE32-A26E0B15F13A</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="4C6F0BF0-0583-E916-22E6-1C8A382B704A">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>867469CB-CDDA-23AA-3D76-5C50308A7CFE</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellidos" id="640481ED-B5F0-7B6E-5A39-39D13B326B0F">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>0B353AFA-BD14-1566-9668-EEC43E2977E7</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dirección" id="18A39BE8-9F59-925F-8A89-896076910023">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>D7AFFC23-B8FD-4D0C-5218-55B3DE9D1B7F</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Municipio" id="A4D17B92-D322-E589-7904-7EB93A6568F8">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>0D0D30A0-1EA5-81F0-5AAA-71E511265BB0</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="98EC000B-E112-7FA2-EE3C-1DB8CBF76384">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>AEED6CC7-CF6C-0384-895C-C11C3C2B8FF1</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D495C94F-7040-815B-463C-A7D16ACF48D6" name="Cliente_PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>85F1D6EA-5614-4BBE-18DC-6C594DFD9835</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07D2474F-221C-E317-E78E-51D9D553840F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

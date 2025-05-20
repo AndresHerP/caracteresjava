@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9E946B2-2D32-9FB6-C24D-C80AA95DA3E7" name="Compra">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>DF262252-7FE1-C817-CC52-479284060461</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Fecha" id="AAAFCBFE-04F8-85C0-E04E-87F2C70173AC">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>EE1F83B7-B96B-60D5-7F94-A14CD33D6627</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Unidades" id="A9C3508F-C639-D4E5-DD8E-B814AA2661A3">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>442EA693-79CD-9AD3-0315-8215DF427434</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_Codcliente" id="EFCB6439-EDAA-36AD-C4DA-FAA7A58445CA">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>6E7570B6-714C-EA31-E466-9A9E304AD576</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="915050CC-D5B1-0A8C-5A7B-DA12867A1371" referredColumn="07D2474F-221C-E317-E78E-51D9D553840F"/>
+</associations>
+</Column>
+<Column name="Articulo_Codarticulo" id="A84E60C5-500A-618D-E0F7-D89B1DA41FC0">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>03A48D8C-FE64-5083-1732-6E56353C19DA</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2FC39B7-AA50-8FFF-8B87-2786DAF3A0F8" referredColumn="04F88E18-C22D-4492-7D47-D534591AED71"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E531177-5742-412B-8045-A47EBCAD99DE" name="Compra_PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>7229F6DA-1E20-71EF-E83F-567D68E8AC27</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAAFCBFE-04F8-85C0-E04E-87F2C70173AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E6C45CD-8B73-4BDC-4223-AC3CC81DBEFA" name="Compra_Cliente_FK">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>99FACF64-77A4-5CE0-F701-287F02743DDB</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFCB6439-EDAA-36AD-C4DA-FAA7A58445CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE1935C0-FDB8-1370-53B7-FBF17AF49522" name="Compra_Articulo_FK">
+<createdBy>andre</createdBy>
+<createdTime>2025-05-20 14:06:27 UTC</createdTime>
+<generatorID>03075D93-9C69-35B6-F0CA-00A26D05F47E</generatorID>
+<ownerDesignName>Modelo de compra venta</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A84E60C5-500A-618D-E0F7-D89B1DA41FC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
