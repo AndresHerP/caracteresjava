@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7DAAED1-35BA-157E-A10C-8E2605C968F4" name="Faculty">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>A5D8BACA-A36C-5630-F2EB-C1B3C9333D37</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="B3DA7CED-3E88-17FD-35E5-BF0202BB77F0">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>175DD135-AAE3-7911-B904-C4D4F925332D</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BD9A2218-B957-2F6C-F473-12F733A59B86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First Name" id="4FFFE379-756B-5474-ADD0-A8F676408ABC">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>0FBB7800-BF3D-16B1-31E7-9F9944DBB241</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>22BEC58D-ACCE-C32A-1D81-A13277D6BF7E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last Name" id="64881F41-DC4E-4174-B6A6-BC7D682FE5A1">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>8FD6060A-047E-38E9-300F-42963ACBE8CA</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>22BEC58D-ACCE-C32A-1D81-A13277D6BF7E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="0729EF03-CC8E-59B4-FBBC-9E5529ED500E">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>92AADA73-FBA8-90BF-832F-36295FBAB781</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>22BEC58D-ACCE-C32A-1D81-A13277D6BF7E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Login Date" id="67CCE234-AB3C-ACE2-627A-411C1EF63496">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>E7711089-1C19-A96A-81CC-17DEC4BA75CD</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>8867D772-4C4D-FB65-978D-42B69802DD56</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Login Time" id="129B91C6-8BE3-EC71-4477-C2207BFB5FA5">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>35058AF1-26C3-8CE9-2BEA-94C576658F1E</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7B6DBB91-242D-E7DA-46FB-A9C86DDF63C9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Details" id="A6F6D625-7EB2-14A7-954C-A420848C259A">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>31F39DAA-8C12-46F5-8DD6-B87F2696C80E</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E4ABCF47-0E10-444D-6499-596BE0BA92FE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="9B3D2B14-B920-6808-E79F-DD30336B3C43">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 15:07:12 UTC</createdTime>
+<generatorID>F4C97D05-36EB-8C4E-E600-8FABB35841AA</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<referedAttribute>48BE9417-10DE-4192-2A35-B7CDD4517389</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BD9A2218-B957-2F6C-F473-12F733A59B86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1A24B9A4-228F-8733-FAB2-828FEBB636CC" name="Faculty PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>E78D190E-A8B8-21DB-EA40-46A33092ED3D</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B3DA7CED-3E88-17FD-35E5-BF0202BB77F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

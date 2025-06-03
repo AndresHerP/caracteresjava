@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD87B2F3-E780-9105-571D-FA43AFEEE757" name="Student">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>45B3BEC1-3C6D-EFD2-4FAC-66AE25318423</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9B82E073-A885-5A2B-BCC1-A15900E513C3">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>C02EF93E-164C-6CD0-E1C0-7A8020A58B31</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BD9A2218-B957-2F6C-F473-12F733A59B86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_Name" id="A69B5252-E7F5-4E53-01AF-11D9DF629C68">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>DDB3B97B-8C5E-D1CB-6BA8-45522576182B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>22BEC58D-ACCE-C32A-1D81-A13277D6BF7E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Name" id="05A64DDD-36DB-662D-2144-0E3478C56FFD">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>502799C3-253C-F63F-70CC-2B6CE1F5ED39</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>22BEC58D-ACCE-C32A-1D81-A13277D6BF7E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Registration_Year" id="AE44943D-46E1-0EA3-2367-75702D36AEEF">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>D608B065-B963-8D99-602A-05A94A17E6BF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BD9A2218-B957-2F6C-F473-12F733A59B86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="C2C9E996-C9A6-5F7D-EB2F-706076070968">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>9934B06D-B8B1-34E2-428A-1A945D01ECD8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>22BEC58D-ACCE-C32A-1D81-A13277D6BF7E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Number_of_Working_Days" id="F80A8434-92C6-C80F-2BBF-1B8D0D6079F9">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>B9455DC2-C052-2E7B-B5DA-8FC1F236896D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BD9A2218-B957-2F6C-F473-12F733A59B86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Number_of_Days_Off" id="D6341CE6-900E-679A-7489-5B09E053487F">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>F82D05F2-C2C8-09E4-345B-90A37ED846F2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BD9A2218-B957-2F6C-F473-12F733A59B86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Eligibility_for_Exam" id="323E97BA-966B-4B53-B592-673CD8FDD82B">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>F632C28F-CB8D-26C4-45AF-14AAD43DBF2C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7B6DBB91-242D-E7DA-46FB-A9C86DDF63C9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99410742-FBE6-EA8D-081D-96B206A8EECA" name="Student_PK">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>9AE2C53F-E32B-94D2-8E76-310A04C7C72F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B82E073-A885-5A2B-BCC1-A15900E513C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

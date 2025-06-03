@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B5C9FF4-E7C5-7030-8797-81ADA0FAB583" name="Department">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>EDB30E57-5433-9967-FB0D-4C10F6E51F9E</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="48BE9417-10DE-4192-2A35-B7CDD4517389">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>E6B5038A-3C47-F87F-9586-FE84DFB53FDF</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BD9A2218-B957-2F6C-F473-12F733A59B86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="C44B38A9-1D94-3054-8875-D34122612C27">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>C796A670-6D23-7F72-E84E-423ED4DB8B5C</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>22BEC58D-ACCE-C32A-1D81-A13277D6BF7E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Head" id="7EB37D5E-7022-5E1F-6C2C-9893B313E306">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>FBDCDAA0-3B53-EB77-3241-AE83FE18DEAB</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>22BEC58D-ACCE-C32A-1D81-A13277D6BF7E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8B5033CD-D052-C19A-287B-98FF3AF71B08" name="Department PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>D7DFF316-B779-F7E5-D4DD-B73FB078CA6E</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>48BE9417-10DE-4192-2A35-B7CDD4517389</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

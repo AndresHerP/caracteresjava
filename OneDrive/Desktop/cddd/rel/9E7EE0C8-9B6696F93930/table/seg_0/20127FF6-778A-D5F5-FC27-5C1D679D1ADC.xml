@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20127FF6-778A-D5F5-FC27-5C1D679D1ADC" name="Academic_Session">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>90B28635-882B-3CFC-5FEB-EFCB920719E5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F9626E48-D6C3-9804-E71A-785A8AC27234">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>CE9527C5-F147-BEC0-57A1-6D404BD38E8C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BD9A2218-B957-2F6C-F473-12F733A59B86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="1C450A49-F438-80A1-15F1-0BAEC2AE7A4F">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>CACFBF40-ED0A-AB86-D96E-FCF822EE6A4A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>22BEC58D-ACCE-C32A-1D81-A13277D6BF7E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90F992E7-5511-A471-CF70-47E55FD9B2A9" name="Academic_Session_PK">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>54A12E03-B601-A9CF-C60A-6AE2A5336C5C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9626E48-D6C3-9804-E71A-785A8AC27234"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

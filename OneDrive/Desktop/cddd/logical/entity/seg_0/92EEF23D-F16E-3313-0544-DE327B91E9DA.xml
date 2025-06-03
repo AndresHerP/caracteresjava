@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92EEF23D-F16E-3313-0544-DE327B91E9DA" name="Course">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>B44B4E94-D275-3C92-1308-6F86C8858D5E</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="B6FB9BFD-4C17-5A73-794A-F61A9A3471D9">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>3FEDA9F9-09B5-DC9E-A83D-603830705A15</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BD9A2218-B957-2F6C-F473-12F733A59B86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="DA238C99-561D-CB7E-5166-6EE429729BC1">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>56235597-515B-A0C4-A56F-3A63E1194A35</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>22BEC58D-ACCE-C32A-1D81-A13277D6BF7E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="85D191B7-AFA9-AA2E-EAC0-7F3D332AB36A">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 15:06:48 UTC</createdTime>
+<generatorID>B3FB9490-618F-C66F-3556-ADC0A6DFCE24</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<referedAttribute>48BE9417-10DE-4192-2A35-B7CDD4517389</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BD9A2218-B957-2F6C-F473-12F733A59B86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="06413556-8221-6279-1C01-30DD5FFAB789" name="Course PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>3482183D-5C49-C997-F2D4-A0863BE28E72</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B6FB9BFD-4C17-5A73-794A-F61A9A3471D9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

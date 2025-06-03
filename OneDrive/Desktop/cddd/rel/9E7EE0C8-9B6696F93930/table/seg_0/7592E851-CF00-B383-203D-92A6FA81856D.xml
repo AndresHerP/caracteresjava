@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7592E851-CF00-B383-203D-92A6FA81856D" name="Exam">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>BDD165FF-FF51-2804-ED21-419A3E1F778E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="12FBA7B2-0F93-1EF1-A231-687D1EE308DB">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>472B84BC-3B9A-4BA6-E157-F6CE6C9C017E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BD9A2218-B957-2F6C-F473-12F733A59B86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type" id="E31FBD30-A149-F52D-BF41-670DE87D9E47">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>750D62A8-63DE-2DFD-1A7B-07401E8CA15A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>32172BED-309D-6CD1-828B-1D3273782664</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Start_Date" id="FA82D825-C833-C947-861D-EAA5E6DC33A3">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>59DCCD5C-2878-3DC4-24FD-5F90BD2B49C2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>8867D772-4C4D-FB65-978D-42B69802DD56</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="F25D51D4-4A9C-EF24-036B-4C2154BD0115">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>71A73ACF-B848-75BE-27B6-46B37F6F4E9C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>22BEC58D-ACCE-C32A-1D81-A13277D6BF7E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="90264FBF-F85F-8768-F5FE-88B4D146D3CC">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>87E57A85-8DF1-9710-86BC-AFC680AD55ED</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E4ABCF47-0E10-444D-6499-596BE0BA92FE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C99E224C-31E7-7A6F-FF5A-B8C17DEA5282" name="Exam_PK">
+<sourceDDLFile>05.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<importedID>B2B7CD57-763D-18A5-E8A1-612E9D998B81</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12FBA7B2-0F93-1EF1-A231-687D1EE308DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Exam" directorySegmentName="seg_0" id="7592E851-CF00-B383-203D-92A6FA81856D">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="12FBA7B2-0F93-1EF1-A231-687D1EE308DB">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Description" id="90264FBF-F85F-8768-F5FE-88B4D146D3CC">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Type" id="E31FBD30-A149-F52D-BF41-670DE87D9E47">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Name" id="F25D51D4-4A9C-EF24-036B-4C2154BD0115">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Start_Date" id="FA82D825-C833-C947-861D-EAA5E6DC33A3">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Exam_PK" id="C99E224C-31E7-7A6F-FF5A-B8C17DEA5282">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

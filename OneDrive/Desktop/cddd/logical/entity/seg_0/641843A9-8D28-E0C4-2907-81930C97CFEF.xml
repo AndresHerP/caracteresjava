@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="641843A9-8D28-E0C4-2907-81930C97CFEF" name="Parent Information">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>3E794DBC-1E79-288D-5B65-106F3F59A422</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="4D391E47-DDB5-735F-77AB-46E9EE5AAB29">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>E05E868E-3D94-6631-E88E-FDA4984B7CE7</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BD9A2218-B957-2F6C-F473-12F733A59B86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parent1 First Name" id="FF287AFB-56FE-D8AF-BD51-A66398C5A1B0">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>97D0F095-CAAD-D704-6029-FE86B18F6EFD</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>22BEC58D-ACCE-C32A-1D81-A13277D6BF7E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parent1 Last Name" id="1F24893D-5E5B-CB2B-CF3F-0B0A7014AADB">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>4A6B2E97-7828-1622-39C1-BB936E878C34</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>22BEC58D-ACCE-C32A-1D81-A13277D6BF7E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parent2 First Name" id="21B7F9A2-A6C3-EA6D-40C0-60741FC086E5">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>224973B2-4986-1D64-A755-57CDEBEB46CC</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>22BEC58D-ACCE-C32A-1D81-A13277D6BF7E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parent2 Last Name" id="B4DFF782-1ED0-F4CC-85DA-733A665E1C6F">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>0400666F-3B7D-6A06-4B79-E4C26C4397AC</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>22BEC58D-ACCE-C32A-1D81-A13277D6BF7E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="2E1E749C-835D-5816-9C2A-820988EF1676">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 15:07:31 UTC</createdTime>
+<generatorID>516A83D5-9C75-CFCD-1A7F-2103F1913F34</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<referedAttribute>03DB4AA0-27AA-BFF1-F87D-DEF19B54B010</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BD9A2218-B957-2F6C-F473-12F733A59B86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B0BB6AE5-4C28-12F3-660A-0514139ABF9E" name="Parent Information PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:54:03 UTC</createdTime>
+<generatorID>03B72918-F7A0-13A2-C400-335EDC203E71</generatorID>
+<ownerDesignName>cddd</ownerDesignName>
+<engineerTo>
+<item key="9E7EE0C8-CB88-8976-F2C3-9B6696F93930" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4D391E47-DDB5-735F-77AB-46E9EE5AAB29</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

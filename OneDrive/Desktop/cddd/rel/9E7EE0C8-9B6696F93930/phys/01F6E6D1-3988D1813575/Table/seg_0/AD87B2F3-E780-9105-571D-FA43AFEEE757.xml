@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Student" directorySegmentName="seg_0" id="AD87B2F3-E780-9105-571D-FA43AFEEE757">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Last_Name" id="05A64DDD-36DB-662D-2144-0E3478C56FFD">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Eligibility_for_Exam" id="323E97BA-966B-4B53-B592-673CD8FDD82B">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="9B82E073-A885-5A2B-BCC1-A15900E513C3">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="First_Name" id="A69B5252-E7F5-4E53-01AF-11D9DF629C68">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Registration_Year" id="AE44943D-46E1-0EA3-2367-75702D36AEEF">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Email" id="C2C9E996-C9A6-5F7D-EB2F-706076070968">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Number_of_Days_Off" id="D6341CE6-900E-679A-7489-5B09E053487F">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Number_of_Working_Days" id="F80A8434-92C6-C80F-2BBF-1B8D0D6079F9">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Student_PK" id="99410742-FBE6-EA8D-081D-96B206A8EECA">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

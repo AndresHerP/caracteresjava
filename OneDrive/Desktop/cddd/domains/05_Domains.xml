@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="05_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="22BEC58D-ACCE-C32A-1D81-A13277D6BF7E">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>05_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="32172BED-309D-6CD1-828B-1D3273782664">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<fileName>05_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_10" id="7B6DBB91-242D-E7DA-46FB-A9C86DDF63C9">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>10</dataTypeSize>
+<fileName>05_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="8867D772-4C4D-FB65-978D-42B69802DD56">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>05_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_0_0_0" id="BD9A2218-B957-2F6C-F473-12F733A59B86">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>05_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_255" id="E4ABCF47-0E10-444D-6499-596BE0BA92FE">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-03 14:53:30 UTC</createdTime>
+<ownerDesignName>cddd</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>255</dataTypeSize>
+<fileName>05_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>
