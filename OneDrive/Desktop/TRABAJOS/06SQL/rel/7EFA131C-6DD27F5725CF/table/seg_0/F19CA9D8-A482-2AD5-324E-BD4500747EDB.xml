@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F19CA9D8-A482-2AD5-324E-BD4500747EDB" name="Client">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>C9830A6C-C9F3-8873-443D-88ACE15DFCA8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ClientID" id="12069B8D-F0C7-F70D-06E8-2FCFA3186CAC">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>374EB994-144D-D55C-AE97-8B59EC70AD13</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>75BEC7C6-2AD1-DF3E-B0E2-B37E7F959933</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FirstName" id="98F9C9AC-EAA0-2378-2D64-3A36437DD809">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>B77228A8-1438-0ED6-E4A6-9904C83C36D7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2CBABF74-455C-75C4-2A93-EE197C689FE9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LastName" id="DCA96F50-E881-51D9-9260-ADEDC3932E85">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>4703DFFE-0142-6ACF-8A16-507F5D5E2BE6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2CBABF74-455C-75C4-2A93-EE197C689FE9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PhoneNumber" id="EDE4CFEA-07D8-B11B-D154-58F5485CC1F7">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>E61398B5-1275-5E19-443B-0CC29711F574</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>99419DB7-428C-4436-E8B5-C7974A4F7E23</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86F706FC-7C75-B16E-2834-6FEA2DBA7297" name="Client_PK">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>BCFAECC9-9DF4-1819-A833-1D53E98E9BC2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12069B8D-F0C7-F70D-06E8-2FCFA3186CAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

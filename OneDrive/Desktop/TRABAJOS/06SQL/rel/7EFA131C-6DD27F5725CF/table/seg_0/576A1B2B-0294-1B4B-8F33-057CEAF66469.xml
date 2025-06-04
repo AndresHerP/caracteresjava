@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="576A1B2B-0294-1B4B-8F33-057CEAF66469" name="Appointment">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>A3AC54C6-C127-2A7E-8939-F463F939529E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AppointmentID" id="5B476D85-C42A-58B6-5BC2-5784ABDDC41B">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>2FB9CF64-9902-CA3E-4835-44E446A2E5AB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>75BEC7C6-2AD1-DF3E-B0E2-B37E7F959933</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AppointmentDate" id="FF14065B-9D6A-41EE-553C-B4BD2E82C383">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>D5E4AC47-B7AE-1A07-BD2D-BDF0CC1EE0F8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>01B994DB-9B23-97F0-6321-B5FFAC8FD0C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AppointmentTime" id="1595AEE8-1202-7C0F-6FAC-D0F7C9E64CF7">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>FE025991-EFE1-F4CC-6163-1E9516EDA9F7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0CB840AF-8BDB-79DE-7707-CC7784755F8A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StylistID" id="5636A0BF-406B-B9A5-5A0A-BBBB1BCBC3DF">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>D02D3A82-81BD-0DCC-19DC-3CB4E11E75C1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>75BEC7C6-2AD1-DF3E-B0E2-B37E7F959933</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3129627-EBC3-9233-1203-BD5988951665" referredColumn="E41C0D67-D3F1-535E-5D25-7C2B7EFE0DC2"/>
+</associations>
+</Column>
+<Column name="ClientID" id="C036AB71-B480-604D-8161-92588E7C58E3">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>A3945448-1E88-1189-93F3-B04DB5ED7C34</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>75BEC7C6-2AD1-DF3E-B0E2-B37E7F959933</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B73F88F8-C9C1-36BD-0F8A-A44F07537085" referredColumn="12069B8D-F0C7-F70D-06E8-2FCFA3186CAC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="829006BA-72F6-9E4D-060C-8E98CC2EB1A0" name="Appointment_PK">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>D6F8AE39-0FBA-8BA2-A5D6-CB9BE8D07295</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B476D85-C42A-58B6-5BC2-5784ABDDC41B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08DCB351-04A8-812C-0B25-197533F0DDDD" name="Appointment_Client_FK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C036AB71-B480-604D-8161-92588E7C58E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28AA9D8F-240F-609C-4000-D01DE9E8FD0D" name="Appointment_Hairstylist_FK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5636A0BF-406B-B9A5-5A0A-BBBB1BCBC3DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

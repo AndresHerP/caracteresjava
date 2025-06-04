@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8900DA4D-DE25-9B07-9A3A-F2975ADA2AEA" name="Appointment">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:46:26 UTC</createdTime>
+<generatorID>576A1B2B-0294-1B4B-8F33-057CEAF66469</generatorID>
+<ownerDesignName>06SQL</ownerDesignName>
+<engineerTo>
+<item key="7EFA131C-F64E-346B-B6C6-6DD27F5725CF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AppointmentID" id="00615131-8A70-E93B-FC36-130A8792496A">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:46:26 UTC</createdTime>
+<generatorID>5B476D85-C42A-58B6-5BC2-5784ABDDC41B</generatorID>
+<ownerDesignName>06SQL</ownerDesignName>
+<engineerTo>
+<item key="7EFA131C-F64E-346B-B6C6-6DD27F5725CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>75BEC7C6-2AD1-DF3E-B0E2-B37E7F959933</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AppointmentDate" id="6C517798-C890-1F08-6E21-C46591A7EBB6">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:46:26 UTC</createdTime>
+<generatorID>FF14065B-9D6A-41EE-553C-B4BD2E82C383</generatorID>
+<ownerDesignName>06SQL</ownerDesignName>
+<engineerTo>
+<item key="7EFA131C-F64E-346B-B6C6-6DD27F5725CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>01B994DB-9B23-97F0-6321-B5FFAC8FD0C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AppointmentTime" id="ABB17597-2423-06C6-534B-3E3CE260F5D8">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:46:26 UTC</createdTime>
+<generatorID>1595AEE8-1202-7C0F-6FAC-D0F7C9E64CF7</generatorID>
+<ownerDesignName>06SQL</ownerDesignName>
+<engineerTo>
+<item key="7EFA131C-F64E-346B-B6C6-6DD27F5725CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0CB840AF-8BDB-79DE-7707-CC7784755F8A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StylistID" id="2939DA3B-736E-BC8A-28DF-27D17611B0D8">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:46:26 UTC</createdTime>
+<generatorID>9296916E-81A4-A4C3-7181-86BB20A6681F</generatorID>
+<ownerDesignName>06SQL</ownerDesignName>
+<engineerTo>
+<item key="7EFA131C-F64E-346B-B6C6-6DD27F5725CF" value="true"/>
+</engineerTo>
+<referedAttribute>DBC495CC-373D-B08E-963F-3EE472210B92</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>75BEC7C6-2AD1-DF3E-B0E2-B37E7F959933</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ClientID" id="006F9B64-B569-CF54-93FD-0B1FE793521A">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:46:26 UTC</createdTime>
+<generatorID>89BB3C9F-1C3E-F1A4-CD30-6DBF036AFE55</generatorID>
+<ownerDesignName>06SQL</ownerDesignName>
+<engineerTo>
+<item key="7EFA131C-F64E-346B-B6C6-6DD27F5725CF" value="true"/>
+</engineerTo>
+<referedAttribute>4E291922-DD70-D8E3-1193-F66031A5BFD7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>75BEC7C6-2AD1-DF3E-B0E2-B37E7F959933</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4DF2D731-EDCE-7D89-1DBA-1BFD78BB9A42" name="Appointment PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:46:26 UTC</createdTime>
+<generatorID>829006BA-72F6-9E4D-060C-8E98CC2EB1A0</generatorID>
+<ownerDesignName>06SQL</ownerDesignName>
+<engineerTo>
+<item key="7EFA131C-F64E-346B-B6C6-6DD27F5725CF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>00615131-8A70-E93B-FC36-130A8792496A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

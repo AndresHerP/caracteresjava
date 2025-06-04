@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72F979EF-3AA6-501F-8A39-AF6E524DEFA6" name="Department">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:46:26 UTC</createdTime>
+<generatorID>40BF89E4-2039-91E0-A2B9-8FE2B506249A</generatorID>
+<ownerDesignName>06SQL</ownerDesignName>
+<engineerTo>
+<item key="7EFA131C-F64E-346B-B6C6-6DD27F5725CF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DepartmentID" id="99AFAA67-A40E-258B-1B62-6D53006C35BB">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:46:26 UTC</createdTime>
+<generatorID>71B0FA79-9D61-EDFF-828B-12D87C3C980A</generatorID>
+<ownerDesignName>06SQL</ownerDesignName>
+<engineerTo>
+<item key="7EFA131C-F64E-346B-B6C6-6DD27F5725CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>75BEC7C6-2AD1-DF3E-B0E2-B37E7F959933</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DepartmentName" id="6CD04AAB-0E05-EBF6-4C4F-B92A8B4F387F">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:46:26 UTC</createdTime>
+<generatorID>06805E48-055C-E6DF-650B-7F6D09C6D874</generatorID>
+<ownerDesignName>06SQL</ownerDesignName>
+<engineerTo>
+<item key="7EFA131C-F64E-346B-B6C6-6DD27F5725CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FB2FC523-D4D2-7364-F772-69BE0FAB5AA9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PhoneNumber" id="1A1327C9-40B1-BC40-2AB6-1F3F1AB72208">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:46:26 UTC</createdTime>
+<generatorID>1C5D17C4-03F5-8178-F907-EB40D1FFC841</generatorID>
+<ownerDesignName>06SQL</ownerDesignName>
+<engineerTo>
+<item key="7EFA131C-F64E-346B-B6C6-6DD27F5725CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>99419DB7-428C-4436-E8B5-C7974A4F7E23</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E4889E9E-5E1F-3990-63B1-087C00598039" name="Department PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:46:26 UTC</createdTime>
+<generatorID>8574BE97-FAD6-4822-5612-24044380F0A6</generatorID>
+<ownerDesignName>06SQL</ownerDesignName>
+<engineerTo>
+<item key="7EFA131C-F64E-346B-B6C6-6DD27F5725CF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>99AFAA67-A40E-258B-1B62-6D53006C35BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

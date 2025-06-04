@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Appointment_Client_FK" directorySegmentName="seg_0" id="89BB3C9F-1C3E-F1A4-CD30-6DBF036AFE55">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:46:26 UTC</createdTime>
+<generatorID>B73F88F8-C9C1-36BD-0F8A-A44F07537085</generatorID>
+<ownerDesignName>06SQL</ownerDesignName>
+<engineerTo>
+<item key="7EFA131C-F64E-346B-B6C6-6DD27F5725CF" value="true"/>
+</engineerTo>
+<sourcePk>D6104356-3EC3-B696-5B39-DC71EE20CA51</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B102590E-CF78-AB0C-520A-3DF2C2BD105F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8900DA4D-DE25-9B07-9A3A-F2975ADA2AEA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

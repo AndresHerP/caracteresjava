@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99230876-B37A-6EC3-1DAD-D328DB776E33" name="Supervisor">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>036739BE-8F6E-F89C-B63F-F86B33B3A3F6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SupervisorID" id="B020D530-6C7C-60D6-BDDD-E9A053B7E082">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>8DD3DE44-DE74-1FCB-4E6B-E768F412C6E2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>75BEC7C6-2AD1-DF3E-B0E2-B37E7F959933</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmployeeID" id="A173DA9E-1B4D-609F-B85D-0B4C368958BC">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>18556391-FAB2-EE39-65C2-53B56EB36545</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>75BEC7C6-2AD1-DF3E-B0E2-B37E7F959933</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FE5C0D0-3927-6BE6-1E24-E7251AF65899" referredColumn="090AAD12-0C25-D55C-28CC-47E5275C0456"/>
+</associations>
+</Column>
+<Column name="DepartmentID" id="6698D920-91B0-10F7-80C6-3EB279076B9D">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>725AAD8F-4793-19AF-CC7C-6C7BA5881CDE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>75BEC7C6-2AD1-DF3E-B0E2-B37E7F959933</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA0AE629-1E71-2464-78B8-B50188737566" referredColumn="71B0FA79-9D61-EDFF-828B-12D87C3C980A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BBAF042-F964-8C01-0CF3-C47C44CE201A" name="Supervisor_PK">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>4CE68001-9487-5892-F6A0-FAF0E6777DDA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B020D530-6C7C-60D6-BDDD-E9A053B7E082"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07E6E16D-CAC4-DB89-8732-8CEB12C992F5" name="INDEX_1">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>08E56B2B-D1F7-0A91-7A0A-E7BA394A51C8</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A173DA9E-1B4D-609F-B85D-0B4C368958BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B85D7416-FB29-EC64-4EF7-319981AA596F" name="INDEX_2">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>E75EB650-F0EC-7A9E-22E8-74C5AC90B745</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6698D920-91B0-10F7-80C6-3EB279076B9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="824D9A2F-0F24-C20C-2C1D-DE23F8EAA903" name="Supervisor_Department_FK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6698D920-91B0-10F7-80C6-3EB279076B9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0415D1A0-9132-7B0E-53E6-41951C197060" name="Supervisor_Employee_FK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A173DA9E-1B4D-609F-B85D-0B4C368958BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D3129627-EBC3-9233-1203-BD5988951665" containerWithKeyObject="576A1B2B-0294-1B4B-8F33-057CEAF66469" localFKIndex="28AA9D8F-240F-609C-4000-D01DE9E8FD0D" name="Appointment_Hairstylist_FK">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>BA358F8F-8CA1-2E1A-1F54-546D2EF811DD</importedID>
+<referredTableLongName>Hairstylist</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FEB38545-64A9-B79A-8E8B-61077211E734</referredTableID>
+<keyObject>D8250E12-18A1-BF3A-56AD-7982729F4014</keyObject>
+<referredKeyID>D8250E12-18A1-BF3A-56AD-7982729F4014</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>StylistID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0DCF0220-C9C6-5ECE-098C-21BF76E1C3AE" name="EmployeeProject">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>B6993578-9547-3AEC-F82A-2291F55C14B3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EmployeeID" id="A353BE6A-6B35-CF34-2552-928734F2F6FD">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>0D8BD54A-0B60-7795-086A-15037EF26805</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>75BEC7C6-2AD1-DF3E-B0E2-B37E7F959933</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7CCC8A9-BD3B-F30E-7920-12DEF57A4D57" referredColumn="090AAD12-0C25-D55C-28CC-47E5275C0456"/>
+</associations>
+</Column>
+<Column name="ProjectID" id="2FF6527C-8B03-53EF-DBC0-A543E9E9AD6F">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>435AC5F2-A4E0-4923-9A75-1965295EFDF6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>75BEC7C6-2AD1-DF3E-B0E2-B37E7F959933</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="759E5228-6554-10D5-9C3D-E59FB2DF148E" referredColumn="909D97D7-D7B9-FF4E-D73D-703C6F330439"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87F7DCD9-EF64-DEE2-8DF5-CEB8BC03511B" name="EmployeeProject_PK">
+<sourceDDLFile>06.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<importedID>981029D4-F4EB-CBA7-919D-55E2321A7C2C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A353BE6A-6B35-CF34-2552-928734F2F6FD"/>
+<colUsage columnID="2FF6527C-8B03-53EF-DBC0-A543E9E9AD6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60007B97-0436-2F81-5663-67DDB3995608" name="EmployeeProject_Employee_FK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A353BE6A-6B35-CF34-2552-928734F2F6FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82D6ED97-E3D0-C8A6-77E6-E622934EE29A" name="EmployeeProject_Project_FK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-04 05:44:50 UTC</createdTime>
+<ownerDesignName>06SQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FF6527C-8B03-53EF-DBC0-A543E9E9AD6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
