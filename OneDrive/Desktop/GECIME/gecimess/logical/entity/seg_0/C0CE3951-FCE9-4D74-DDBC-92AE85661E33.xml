@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C0CE3951-FCE9-4D74-DDBC-92AE85661E33" name="ADMINISTRADOR">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>C1C87A2B-3B07-9801-F838-416515A5B45B</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID ADMIN" id="4A77B855-6ADA-DBFC-8358-F556B8125A0D">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>91155718-8174-04AF-4882-0D6DDF354A04</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>25737978-8541-7B33-E2FA-FCFC41D09F91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="7E33C129-2825-34EA-442C-75668BE4333E">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>8DFEBBCF-C3F3-81AF-D2A4-D0F15F7281B6</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0706C3AC-C901-77A9-CF2D-4003DA17C6E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USUARIO" id="E3F9DD2C-795D-6CFF-4748-0379368C69E6">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>52481D05-0667-0DCA-2BDA-FD37402CA46B</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B6E38136-7FBD-C113-359B-96E2876E9FAD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTRASENA" id="2519B496-EB92-D1EC-D1B6-632B388C7173">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>A5C77491-9F9B-9C4C-9ECD-F66D4C6432E0</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0706C3AC-C901-77A9-CF2D-4003DA17C6E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1F87230-9C4F-5A57-A9EB-08E3CB9A029F" name="ADMINISTRADOR PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>818D10C4-F5E8-AA21-BB6E-7F1D8A41459B</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4A77B855-6ADA-DBFC-8358-F556B8125A0D</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="A46EE7EF-18E1-31FB-1E03-C493AFD45100" name="INDEX 1">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>B26947F4-1B41-F882-D010-F1E9BA0F20F3</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>E3F9DD2C-795D-6CFF-4748-0379368C69E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

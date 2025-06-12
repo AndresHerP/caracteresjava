@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E89BAEA-905F-B293-4D1E-7AC1F2967690" name="EMPLEADO">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>C19581F2-3AE8-CB22-55F2-2364A50B33E8</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID EMPLEADO" id="3151F9A0-E122-D837-1C7B-F3799824295B">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>DE1E48C0-C079-8A7F-54DD-667B70615E86</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>25737978-8541-7B33-E2FA-FCFC41D09F91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="670A792D-7584-8EC0-08AA-52E47D8D28C7">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>B9D88C2F-3161-40A5-EE36-1B828F5BE6EE</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0706C3AC-C901-77A9-CF2D-4003DA17C6E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ROL" id="30E971D5-664B-EC59-3336-7D47D4DDA5AE">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>5E7D0CE6-80C1-98AD-0751-C45D034AE41C</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A0FDCB18-C1FD-C69E-0144-97CF4A5971A0</domain>
+<listOfValues>
+<valueDef value="Medico" description=""/>
+<valueDef value="Recepcionista" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESPECIALIDAD" id="C8F34063-9ECF-AE9F-CCC8-088175C92725">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>A3B1BA7C-9EF9-7905-7667-8E3D214FB7CD</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0706C3AC-C901-77A9-CF2D-4003DA17C6E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USUARIO" id="4C8C1FA9-CD13-2972-D8F3-DDA099598195">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>9052C753-D571-65A2-7AA2-A74A3B99A854</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B6E38136-7FBD-C113-359B-96E2876E9FAD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTRASENA" id="3BB5EB64-D1FA-2440-7186-EEF2145947E8">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>40B42308-0685-C177-8D5F-AB88CD52E211</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0706C3AC-C901-77A9-CF2D-4003DA17C6E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID ADMIN" id="34CAECF8-BC4D-FD01-ABE4-0916BFD5BDBA">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>079BC6F7-55D5-A867-2F57-F955FF186021</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>4A77B855-6ADA-DBFC-8358-F556B8125A0D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>25737978-8541-7B33-E2FA-FCFC41D09F91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="963EAB99-4952-B64A-F991-6AC6988E0F54" name="EMPLEADO PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>728C7A80-1681-31D3-4732-54BD93FAD92D</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3151F9A0-E122-D837-1C7B-F3799824295B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="6A7665C1-87B7-D3B1-CB5A-59EF125A197E" name="INDEX 1v1">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>01B1D3B8-9CBF-E555-676D-1FBD5248D66B</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>4C8C1FA9-CD13-2972-D8F3-DDA099598195</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

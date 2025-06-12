@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CITA_PACIENTE_FK" directorySegmentName="seg_0" id="96363A58-5A84-87FA-5AD0-C744E0F8C3BA">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>1D8FEF3E-863E-B15D-80A2-02277D90F95E</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<sourcePk>910DCC84-A758-A0BB-5229-5ED201ECB5AC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>50B43FB5-8C0E-264F-65F3-66E8CDCB46EA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A5F53A66-1FD4-BBCF-C633-5072843A7A62</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

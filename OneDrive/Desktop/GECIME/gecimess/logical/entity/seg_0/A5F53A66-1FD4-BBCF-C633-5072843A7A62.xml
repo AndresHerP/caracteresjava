@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A5F53A66-1FD4-BBCF-C633-5072843A7A62" name="CITA">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>761F07CA-23DA-CAAE-FC07-E2C39950BE44</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID CITA" id="63B35E95-97D6-9B94-4846-AFABD031D5AD">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>2800CC4A-BDC2-EEB7-8207-9B6D41D68EAD</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>25737978-8541-7B33-E2FA-FCFC41D09F91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA" id="4515D4CC-B9C5-413B-5356-D4D4E46AB683">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>53331BE0-5C9D-03C9-6433-9A8CEE866D16</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>E56835C8-E5C4-5A38-E5A1-EC28CA5ADFE8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA" id="5A77C322-A770-B260-00E9-ED0C80383ABF">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>DB130A03-8E75-EEDD-8555-9C2F2A953FC9</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BAB27A26-332B-48F2-E8AE-7E4775A15882</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MOTIVO" id="A0209E97-C57D-1FB4-5911-22DEA2CB489A">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>83741DAA-4D81-D6DE-63E6-7210DAB4D209</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8B598860-BEA6-6131-3364-78DBA7EA3264</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="BCF20030-999F-402A-6839-BF7759382976">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>D636CCCF-89E7-1553-EB6F-FBC5C1EABB53</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A0FDCB18-C1FD-C69E-0144-97CF4A5971A0</domain>
+<listOfValues>
+<valueDef value="Atendida" description=""/>
+<valueDef value="Cancelada" description=""/>
+<valueDef value="Pendiente" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID PACIENTE" id="9B05E5D8-F82B-68D8-0942-D30AABA67A67">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>96363A58-5A84-87FA-5AD0-C744E0F8C3BA</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<referedAttribute>35121676-8B07-0FE6-7828-AD8E436AB4AE</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>25737978-8541-7B33-E2FA-FCFC41D09F91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID MEDICO" id="5AA4FFFD-2BFF-6F74-355A-C11D20AA58CF">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>70FE12CE-E9E2-25F3-85C2-9557746AAF94</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<referedAttribute>3151F9A0-E122-D837-1C7B-F3799824295B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>25737978-8541-7B33-E2FA-FCFC41D09F91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID RECEPCIONISTA" id="9228115D-556F-E94F-D41F-D6669E004CBF">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>A5AFD0DF-AFEF-BF7A-911F-1FFCD3CCE184</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<referedAttribute>3151F9A0-E122-D837-1C7B-F3799824295B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>25737978-8541-7B33-E2FA-FCFC41D09F91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E44613BF-B497-70B7-CCF6-C8DE79504463" name="CITA PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>ADCA9B36-9092-0BC4-A940-1E58AFD68E14</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>63B35E95-97D6-9B94-4846-AFABD031D5AD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C19581F2-3AE8-CB22-55F2-2364A50B33E8" name="EMPLEADO">
+<sourceDDLFile>ERD_Pro-Int-1.2.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-11 16:45:20 UTC</createdTime>
+<ownerDesignName>gecimess</ownerDesignName>
+<importedID>701984B5-6C5D-AC82-8433-978B52BEACFE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EMPLEADO" id="DE1E48C0-C079-8A7F-54DD-667B70615E86">
+<sourceDDLFile>ERD_Pro-Int-1.2.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-11 16:45:20 UTC</createdTime>
+<ownerDesignName>gecimess</ownerDesignName>
+<importedID>8E4E612D-71EF-7B5D-2DA1-FBDF829A4E79</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>25737978-8541-7B33-E2FA-FCFC41D09F91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="B9D88C2F-3161-40A5-EE36-1B828F5BE6EE">
+<sourceDDLFile>ERD_Pro-Int-1.2.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-11 16:45:20 UTC</createdTime>
+<ownerDesignName>gecimess</ownerDesignName>
+<importedID>6CC1B598-AF87-4896-2B8D-48997D3E4B16</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0706C3AC-C901-77A9-CF2D-4003DA17C6E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROL" id="5E7D0CE6-80C1-98AD-0751-C45D034AE41C">
+<sourceDDLFile>ERD_Pro-Int-1.2.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-11 16:45:20 UTC</createdTime>
+<ownerDesignName>gecimess</ownerDesignName>
+<importedID>DE435EE5-B542-7A95-C84B-D8D5A24C3BF8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A0FDCB18-C1FD-C69E-0144-97CF4A5971A0</domain>
+<listOfValues>
+<valueDef value="Medico" description=""/>
+<valueDef value="Recepcionista" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESPECIALIDAD" id="A3B1BA7C-9EF9-7905-7667-8E3D214FB7CD">
+<sourceDDLFile>ERD_Pro-Int-1.2.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-11 16:45:20 UTC</createdTime>
+<ownerDesignName>gecimess</ownerDesignName>
+<importedID>017AA1BC-6CCB-7D8C-521E-2E1E4F3463D2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0706C3AC-C901-77A9-CF2D-4003DA17C6E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO" id="9052C753-D571-65A2-7AA2-A74A3B99A854">
+<sourceDDLFile>ERD_Pro-Int-1.2.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-11 16:45:20 UTC</createdTime>
+<ownerDesignName>gecimess</ownerDesignName>
+<importedID>37C94141-C378-463E-87BB-687F1C0BCD2D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B6E38136-7FBD-C113-359B-96E2876E9FAD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENA" id="40B42308-0685-C177-8D5F-AB88CD52E211">
+<sourceDDLFile>ERD_Pro-Int-1.2.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-11 16:45:20 UTC</createdTime>
+<ownerDesignName>gecimess</ownerDesignName>
+<importedID>00CE3105-C24E-46BF-BB46-A284A77E2F9C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0706C3AC-C901-77A9-CF2D-4003DA17C6E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ADMIN" id="ADAECB90-B6C9-ACEC-1F21-9A512F822F90">
+<sourceDDLFile>ERD_Pro-Int-1.2.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-11 16:45:20 UTC</createdTime>
+<ownerDesignName>gecimess</ownerDesignName>
+<importedID>18338BBF-8536-B275-0CA0-47114B62070B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>25737978-8541-7B33-E2FA-FCFC41D09F91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A18126F-CAFC-7C60-9747-59C767A9378C" referredColumn="91155718-8174-04AF-4882-0D6DDF354A04"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="728C7A80-1681-31D3-4732-54BD93FAD92D" name="EMPLEADO_PK">
+<sourceDDLFile>ERD_Pro-Int-1.2.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-11 16:45:20 UTC</createdTime>
+<ownerDesignName>gecimess</ownerDesignName>
+<importedID>43C2C7D7-DD7D-434D-4A3C-7358470D35A2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE1E48C0-C079-8A7F-54DD-667B70615E86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01B1D3B8-9CBF-E555-676D-1FBD5248D66B" name="INDEX_1v1">
+<sourceDDLFile>ERD_Pro-Int-1.2.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-11 16:45:20 UTC</createdTime>
+<ownerDesignName>gecimess</ownerDesignName>
+<importedID>F00EEB98-1259-B5F4-AAAA-2EB2DF2954F9</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9052C753-D571-65A2-7AA2-A74A3B99A854"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="574ED4BD-9E4C-B498-F2E0-FCD01F711B0F" name="EMPLEADO_ADMINISTRADOR_FK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-11 16:45:20 UTC</createdTime>
+<ownerDesignName>gecimess</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADAECB90-B6C9-ACEC-1F21-9A512F822F90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

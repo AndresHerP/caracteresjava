@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="50B43FB5-8C0E-264F-65F3-66E8CDCB46EA" name="PACIENTE">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>17AADBBD-345E-51FB-ED58-1EDF199DA8B5</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID PACIENTE" id="35121676-8B07-0FE6-7828-AD8E436AB4AE">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>D8DD75EF-F781-BA6B-F550-A92D3212B94E</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>25737978-8541-7B33-E2FA-FCFC41D09F91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="9A8DD321-2CE5-82F1-58C3-2CE503B4EEE7">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>09F8AFDC-5924-E4CB-1075-523FD1512535</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0706C3AC-C901-77A9-CF2D-4003DA17C6E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MATRICULA" id="B9C98B30-ECE3-E2FA-C23F-8140789DEED7">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>F51628D7-F2C8-5E07-25EB-2B2A4DB77BB7</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A0FDCB18-C1FD-C69E-0144-97CF4A5971A0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CARRERA" id="22211F6B-BECC-37B4-7B67-982E1FF57213">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>A615807E-B98F-4C4C-C47A-C994BB07048A</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0706C3AC-C901-77A9-CF2D-4003DA17C6E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CORREO" id="A6CAAD1A-D728-DCA4-88AC-AA9DA7D0E6D6">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>F88AD610-ADAF-164D-C151-4628461454DB</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0706C3AC-C901-77A9-CF2D-4003DA17C6E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO" id="809828C8-C82A-82AF-5FB8-5CF964C9B29E">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>D706C4F3-7CBB-5C2B-EF96-CAEC807F5D39</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6CB05EEB-15E6-6739-F6AF-600E0495BC81</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="910DCC84-A758-A0BB-5229-5ED201ECB5AC" name="PACIENTE PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>08A162C2-706D-84DA-79A8-51EC64749A30</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>35121676-8B07-0FE6-7828-AD8E436AB4AE</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="71FE3759-4F45-EE33-CF24-3FA325215E53" name="INDEX 1v2">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-12 00:48:58 UTC</createdTime>
+<generatorID>AF8E4E30-B36E-0614-63FC-465D156DCCE7</generatorID>
+<ownerDesignName>gecimess</ownerDesignName>
+<engineerTo>
+<item key="7D268837-6A43-C35C-32DA-16E3C76051B6" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>B9C98B30-ECE3-E2FA-C23F-8140789DEED7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
