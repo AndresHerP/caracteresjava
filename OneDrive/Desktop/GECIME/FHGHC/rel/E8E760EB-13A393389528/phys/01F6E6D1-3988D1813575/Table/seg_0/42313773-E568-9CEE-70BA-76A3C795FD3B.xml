@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RECUPERACION_CONTRASENA" directorySegmentName="seg_0" id="42313773-E568-9CEE-70BA-76A3C795FD3B">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="USADO" id="038F48F3-23A9-B91F-8682-D8B684614DC4">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_RECUPERACION" id="964E2E59-3DC5-C4DF-439F-0A0B92A8AB14">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_SOLICITUD" id="AC43E518-D476-2EBF-E680-988AD8536828">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CUENTA" id="CC84BBE6-8F1A-C1B3-F4F6-7480896D69AA">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TOKEN" id="D074A85F-9254-7971-47A7-2CE556AA99BF">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RECUPERACION_CONTRASENA_CUENTA_FK" id="9618AD80-C62F-A559-EC37-235DDB261BEA">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RECUPERACION_CONTRASENA_PK" id="75BDAF1E-01D1-4B02-9D0F-17C7F09F9B29">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

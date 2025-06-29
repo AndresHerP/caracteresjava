@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4F32E53C-E1B4-C564-4943-F2A44E80BCD4" name="REPORTE MEDICO">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>D4C9AA9E-FA94-F529-E478-B6328C8E1643</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID REPORTE" id="B73B5FB3-0A75-761A-DB0B-0C018483A2F0">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>2DCF62B5-B1D1-432F-53C7-D772457717D1</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B2AEFC7-40CC-C3E4-751A-040072D2E6A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID CITA" id="F771A701-1BDD-A348-5D84-98C9CC18F526">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>772C9ADF-0F20-DAB3-7D8C-01C6E7A3C381</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D0D71D4E-33A6-7BB1-F22E-4C85FC5354F3</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B2AEFC7-40CC-C3E4-751A-040072D2E6A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIAGNOSTICO" id="65E8BE06-250D-B1CC-5619-6C387FFF0380">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>ABB99E82-F28E-D7EE-FA99-A2248E9EB0B3</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3DD36595-99E3-9DEC-8E05-F8FA438E4DEA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INDICACIONES" id="508F3720-227B-D35C-358F-47CA5A72F09F">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>4FFD32C7-49A4-C0D8-4988-7318FBDA87F6</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3DD36595-99E3-9DEC-8E05-F8FA438E4DEA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA REGISTRO" id="4F483206-C1EF-19C6-2EAD-A56026051E92">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>2BAD3EF2-1D7C-8B3F-7E49-A18216AFA053</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>FF4132F3-9BC3-7498-ECB6-C81DF31C8EC4</domain>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="10AE4F12-F704-3F13-0D83-1FE57A0D7EF6" name="REPORTE MEDICO PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>158015C4-760C-1AA5-FA96-498D81D1DC3E</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B73B5FB3-0A75-761A-DB0B-0C018483A2F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

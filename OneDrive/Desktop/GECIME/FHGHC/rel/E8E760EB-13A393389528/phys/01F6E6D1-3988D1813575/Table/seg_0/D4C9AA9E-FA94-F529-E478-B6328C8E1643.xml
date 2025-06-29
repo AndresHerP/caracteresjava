@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="REPORTE_MEDICO" directorySegmentName="seg_0" id="D4C9AA9E-FA94-F529-E478-B6328C8E1643">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FECHA_REGISTRO" id="2BAD3EF2-1D7C-8B3F-7E49-A18216AFA053">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ID_CITA" id="2D4BCB67-F222-0FD9-C536-FF1F9FD47828">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_REPORTE" id="2DCF62B5-B1D1-432F-53C7-D772457717D1">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INDICACIONES" id="4FFD32C7-49A4-C0D8-4988-7318FBDA87F6">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIAGNOSTICO" id="ABB99E82-F28E-D7EE-FA99-A2248E9EB0B3">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REPORTE_MEDICO_CITA_FK" id="F35F09DC-9042-A87A-7BF3-9EF4AA3DA3BC">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REPORTE_MEDICO_PK" id="158015C4-760C-1AA5-FA96-498D81D1DC3E">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

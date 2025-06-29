@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="E8E760EB-073C-6499-ECDC-13A393389528" mainViewID="79DD1650-8766-4000-37FE-9DEEF6B2C978">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:05:52 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>ERD_Prop-Int-1.4.ddl</fileName>
+<pathName>C:\Users\andre\OneDrive\Desktop\GECIME</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

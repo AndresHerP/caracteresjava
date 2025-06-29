@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="EMPLEADO" directorySegmentName="seg_0" id="CCAAE0B7-1967-803E-A3BD-7817F65FE2D7">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CONSULTORIO" id="0A9CD1A0-0733-0F69-8B3B-6A7FE5022C82">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESPECIALIDAD" id="0CFF5F16-2308-8B33-9D89-A423A91854DF">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO_AREA" id="25F659B3-1BA3-BEBA-5FCB-35B4F7846BEA">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="25FE59DB-6499-9EFA-A14D-F174E7E345F8">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_EMPLEADO" id="2AE7630A-9F85-26AD-FEAB-FDB247EFE099">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USUARIO" id="45BA649E-393D-8B7E-7701-7FE2E53D6EA9">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTRASENA" id="9C31DCD0-F820-EA4B-A05D-DFD2DD1291D9">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO" id="9CB9E360-5250-549D-A065-7822C63150CC">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<defaultValue>&apos;ACTIVO&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ROL" id="9E00CE3C-C897-9D79-3BE6-22A26C60B185">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CORREO" id="A4E96BB7-27A0-31AE-13B6-32F42C6ECA1F">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMPLEADO_PK" id="C7A0DFC4-91A1-2C86-107B-2D91D2801AFE">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="INDEX_1" id="92273B7E-633D-1274-4ADC-9808368C112B">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<nameChanged>true</nameChanged>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

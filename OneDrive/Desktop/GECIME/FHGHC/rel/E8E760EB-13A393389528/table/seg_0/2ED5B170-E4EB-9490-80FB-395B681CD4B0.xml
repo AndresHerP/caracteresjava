@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2ED5B170-E4EB-9490-80FB-395B681CD4B0" name="CITA">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>A57EC72F-471F-B365-5B69-836F30886F72</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CITA" id="4AB3B232-0F98-4B18-1AF6-2B0A9220BB26">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>A9A0B116-BAB5-06EA-40B2-9D16554F7F08</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B2AEFC7-40CC-C3E4-751A-040072D2E6A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PACIENTE" id="C668E5DA-B37F-991B-F8B8-0195BB96F9DE">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>2E4C3C71-DA7F-7F7C-C60F-E803C1BA892F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B2AEFC7-40CC-C3E4-751A-040072D2E6A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82E6A982-8890-CFA8-52DE-8E39D922CBA9" referredColumn="EC22A3D7-6573-7FC2-8C6A-06257234B55B"/>
+</associations>
+</Column>
+<Column name="ID_MEDICO" id="03E6CEE8-FCE8-63B1-2FA5-DA31D285FAC2">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>2731B2AD-2D87-B9FF-3074-FD62CE44DCAC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B2AEFC7-40CC-C3E4-751A-040072D2E6A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFDE39DB-BB63-E986-13D3-79F7291DE0DB" referredColumn="2AE7630A-9F85-26AD-FEAB-FDB247EFE099"/>
+</associations>
+</Column>
+<Column name="ID_RECEPCIONISTA" id="E0E11E83-5BC8-46CB-B82F-65241030B4F3">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>9F708782-4167-C7FC-5E0D-CF52F9C7B5E5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B2AEFC7-40CC-C3E4-751A-040072D2E6A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E248708C-FA1D-BD2C-986D-C08B28F64E0D" referredColumn="2AE7630A-9F85-26AD-FEAB-FDB247EFE099"/>
+</associations>
+</Column>
+<Column name="FECHA" id="C5A03F16-F826-329E-A900-4335DF34B8DF">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>99F2B288-EC4A-01A5-1680-90F75DE72780</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>FF4132F3-9BC3-7498-ECB6-C81DF31C8EC4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA" id="3C171B05-97E1-2DD7-28B5-6B75B760FBFA">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>76AD3714-F1E0-11F5-BC55-81B60C94213B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>25616E47-88A1-2573-5FF0-529E2C12FA05</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOTIVO" id="57038F46-50C5-E320-CEF0-B58A88E53D64">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>09DFF2C3-C87C-DBDD-5C08-F8837FE6A3DF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F8B3B12E-5E4A-30FE-610F-62304FF5DCA6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="955AC82A-9736-6B9C-ADD8-72E0ABEBF32D">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>CA3E9361-C221-257C-36C8-FB91C9A01C51</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E5DDC1B7-4F82-9DDC-09E2-76F96C89BA14</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F88AFF45-D7CC-1FBA-7F06-F16A81F1B578" name="CITA_PK">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>CC1A0E81-C583-C0C4-72F3-75E010BB3FC9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AB3B232-0F98-4B18-1AF6-2B0A9220BB26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC0F104B-BF2F-0E90-40AF-4C1F973BBFFD" name="CITA_EMPLEADO_FK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03E6CEE8-FCE8-63B1-2FA5-DA31D285FAC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25DA9667-8FFC-51BE-BCD4-AAE0AC1E8BE4" name="CITA_EMPLEADO_FKv1">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0E11E83-5BC8-46CB-B82F-65241030B4F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CD71DC3-C81F-067F-E36F-97800241BF95" name="CITA_PACIENTE_FK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C668E5DA-B37F-991B-F8B8-0195BB96F9DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

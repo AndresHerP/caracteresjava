@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="936919F8-E921-904D-3E1E-3EB099776CED" name="PACIENTE">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>1850A67D-8B26-9C9F-55B3-0C6AE65297D0</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID PACIENTE" id="428138AC-035D-DEF6-DEB6-F836096D6642">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>EC22A3D7-6573-7FC2-8C6A-06257234B55B</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B2AEFC7-40CC-C3E4-751A-040072D2E6A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="AEBC5713-BEB5-C73D-3B30-FE56E5F0C617">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>8CFC34C7-BBE5-DE06-4B50-D99B1858007A</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6F551DB5-21FE-62CC-1725-17214610D0BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MATRICULA" id="787AB2A1-CC31-A9C7-A8EC-40548A47BF2B">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>36DAE2C0-D513-DD4A-92D5-CCBC9E09D0B3</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8D98C62F-6B85-E815-FD14-FFD0109527DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CORREO" id="5B807D2A-746F-EB33-5518-A7AF95CDA905">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>AE9CB5BD-654C-BC7F-38A1-F3BBF974610F</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6F551DB5-21FE-62CC-1725-17214610D0BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="0F9D9F76-A909-0B3D-7633-D64CE3017684">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>441798A7-B4D3-0BA5-2FDB-01E6005561EC</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E5DDC1B7-4F82-9DDC-09E2-76F96C89BA14</domain>
+<defaultValue>&apos;ACTIVO&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID CUENTA" id="CA131D24-33F5-1FC1-218B-A18890CEE89B">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>50942277-1A13-5CE8-AD8B-D8086C5E8C54</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C516986E-D790-1E6C-7F72-18BFC658ABEF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E54B41DE-D468-ADCD-7661-03C2D2367777" name="PACIENTE PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>B5CD8F06-CD2F-E455-515C-720154F18F06</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>428138AC-035D-DEF6-DEB6-F836096D6642</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="0DFE62CD-2E1A-097D-ABAC-03AAC5AA00CB" name="INDEX 1v2">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>71BF7823-55E1-FD88-A5BE-BA585E4AF91D</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>787AB2A1-CC31-A9C7-A8EC-40548A47BF2B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="E9F463DE-B99F-55D0-C9AB-FC0B79B63C9D" name="INDEX 2">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>C4D243C3-874F-315C-B029-7BB82FC473F2</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+</identifier>
+</identifiers>
+</Entity>

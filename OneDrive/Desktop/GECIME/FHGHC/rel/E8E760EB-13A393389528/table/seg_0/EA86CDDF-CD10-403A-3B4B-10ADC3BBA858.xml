@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA86CDDF-CD10-403A-3B4B-10ADC3BBA858" name="CUENTA">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>25F3A9EB-0297-C9CF-75DA-1E4DECCC6637</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CUENTA" id="C3FFCCF7-541D-54FB-AC6C-6EEED0F7E547">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>AD8FA812-8888-FE5A-6B3C-2C2284314183</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B2AEFC7-40CC-C3E4-751A-040072D2E6A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO" id="64B4DDA1-01E0-933D-AA13-6C97CE3D0726">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>0269337E-8071-934B-A1F3-8110B00BB86C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8D98C62F-6B85-E815-FD14-FFD0109527DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENA" id="82CDEB18-E54C-4FD4-A994-80F1535795AC">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>FBA44634-F01F-A5FE-E72B-D50FA79B4045</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6F551DB5-21FE-62CC-1725-17214610D0BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROL" id="85A096C3-E460-A308-BC7F-B7A5E96C011E">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>99D9E91E-F34C-DFF0-B9BD-5006D3665140</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E5DDC1B7-4F82-9DDC-09E2-76F96C89BA14</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="F67C138E-1938-C7C0-E3C5-9A1B54EE86D9">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>28476F1F-A630-3672-6B21-784D34A59EFD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E5DDC1B7-4F82-9DDC-09E2-76F96C89BA14</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA17DB25-7363-D81C-7127-AE1BB422341F" name="CUENTA_PK">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>C2E002FB-E9B4-68E1-5368-32871C8FA112</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3FFCCF7-541D-54FB-AC6C-6EEED0F7E547"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8793CFB-68C3-C9E9-C4C0-4C1C70043F72" name="INDEX_1">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>76B7A4C2-89EC-F685-4B11-F8537064AB29</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64B4DDA1-01E0-933D-AA13-6C97CE3D0726"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3AE4C40F-64D6-1648-3D44-955A9A220168" name="CUENTA">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>EA86CDDF-CD10-403A-3B4B-10ADC3BBA858</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID CUENTA" id="03AC0335-2C54-2C4C-4C66-BD620A073606">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>C3FFCCF7-541D-54FB-AC6C-6EEED0F7E547</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B2AEFC7-40CC-C3E4-751A-040072D2E6A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USUARIO" id="26D01D4E-9116-9083-3496-ED2BBCD7D60A">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>64B4DDA1-01E0-933D-AA13-6C97CE3D0726</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8D98C62F-6B85-E815-FD14-FFD0109527DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTRASENA" id="B08196E9-2245-1FD7-412E-0E534341A77D">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>82CDEB18-E54C-4FD4-A994-80F1535795AC</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6F551DB5-21FE-62CC-1725-17214610D0BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ROL" id="7D7D81CE-9DB1-AE93-6ED8-F08699813749">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>85A096C3-E460-A308-BC7F-B7A5E96C011E</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E5DDC1B7-4F82-9DDC-09E2-76F96C89BA14</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="64EBB114-1892-0CEF-69DD-14FF49F451EF">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>F67C138E-1938-C7C0-E3C5-9A1B54EE86D9</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E5DDC1B7-4F82-9DDC-09E2-76F96C89BA14</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E4EEDCDF-8A33-16DA-EA71-A73A7EF76636" name="CUENTA PK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>BA17DB25-7363-D81C-7127-AE1BB422341F</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03AC0335-2C54-2C4C-4C66-BD620A073606</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="D5E89172-BF93-6AAA-BC62-0C42465C67D2" name="INDEX 1">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>B8793CFB-68C3-C9E9-C4C0-4C1C70043F72</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>26D01D4E-9116-9083-3496-ED2BBCD7D60A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4C9AA9E-FA94-F529-E478-B6328C8E1643" name="REPORTE_MEDICO">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>52535335-9D07-C91D-B09D-BBDF658909DA</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_REPORTE" id="2DCF62B5-B1D1-432F-53C7-D772457717D1">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>13924751-8149-9CD3-AA49-9C45526EB6F7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B2AEFC7-40CC-C3E4-751A-040072D2E6A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CITA" id="2D4BCB67-F222-0FD9-C536-FF1F9FD47828">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>F954841E-F347-8356-6B45-64DF0DA9AF77</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1B2AEFC7-40CC-C3E4-751A-040072D2E6A1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07438431-41F4-D376-07E4-D4FD916720DE" referredColumn="4AB3B232-0F98-4B18-1AF6-2B0A9220BB26"/>
+</associations>
+</Column>
+<Column name="DIAGNOSTICO" id="ABB99E82-F28E-D7EE-FA99-A2248E9EB0B3">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>B1FDCD06-9EB7-8E41-CB37-4395994767A0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3DD36595-99E3-9DEC-8E05-F8FA438E4DEA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INDICACIONES" id="4FFD32C7-49A4-C0D8-4988-7318FBDA87F6">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>B8DF7A58-8B67-BDFA-70C6-03F01DF4DFF3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3DD36595-99E3-9DEC-8E05-F8FA438E4DEA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="2BAD3EF2-1D7C-8B3F-7E49-A18216AFA053">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>26D1CF3D-DF2D-23C2-CBA2-E6FEF450C1A3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>FF4132F3-9BC3-7498-ECB6-C81DF31C8EC4</domain>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="158015C4-760C-1AA5-FA96-498D81D1DC3E" name="REPORTE_MEDICO_PK">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>ED8BE1DB-14C6-2762-14BB-034455BD8E6B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DCF62B5-B1D1-432F-53C7-D772457717D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F35F09DC-9042-A87A-7BF3-9EF4AA3DA3BC" name="REPORTE_MEDICO_CITA_FK">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D4BCB67-F222-0FD9-C536-FF1F9FD47828"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

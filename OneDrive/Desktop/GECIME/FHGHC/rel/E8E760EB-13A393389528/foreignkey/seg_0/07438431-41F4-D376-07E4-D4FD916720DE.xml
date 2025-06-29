@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="07438431-41F4-D376-07E4-D4FD916720DE" containerWithKeyObject="D4C9AA9E-FA94-F529-E478-B6328C8E1643" localFKIndex="F35F09DC-9042-A87A-7BF3-9EF4AA3DA3BC" name="REPORTE_MEDICO_CITA_FK">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>764C167C-D946-9C9C-E732-52BB070444AD</importedID>
+<referredTableLongName>CITA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2ED5B170-E4EB-9490-80FB-395B681CD4B0</referredTableID>
+<keyObject>F88AFF45-D7CC-1FBA-7F06-F16A81F1B578</keyObject>
+<referredKeyID>F88AFF45-D7CC-1FBA-7F06-F16A81F1B578</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_CITA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

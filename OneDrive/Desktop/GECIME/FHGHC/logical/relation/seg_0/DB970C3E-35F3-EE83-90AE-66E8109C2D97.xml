@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RECUPERACION_CONTRASENA_CUENTA_FK" directorySegmentName="seg_0" id="DB970C3E-35F3-EE83-90AE-66E8109C2D97">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>63E9EA99-81E3-A80B-F081-C5B89A6765CA</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<sourcePk>E4EEDCDF-8A33-16DA-EA71-A73A7EF76636</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3AE4C40F-64D6-1648-3D44-955A9A220168</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>51864D51-3F86-7EEA-8681-723E8BDAC4FC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

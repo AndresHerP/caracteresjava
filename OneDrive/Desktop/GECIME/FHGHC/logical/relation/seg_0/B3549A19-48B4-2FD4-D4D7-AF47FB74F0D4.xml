@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CITA_EMPLEADO_FK" directorySegmentName="seg_0" id="B3549A19-48B4-2FD4-D4D7-AF47FB74F0D4">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:31:49 UTC</createdTime>
+<generatorID>DFDE39DB-BB63-E986-13D3-79F7291DE0DB</generatorID>
+<ownerDesignName>FHGHC</ownerDesignName>
+<engineerTo>
+<item key="E8E760EB-073C-6499-ECDC-13A393389528" value="true"/>
+</engineerTo>
+<sourcePk>19F696E5-D109-8224-D6F4-AEAEE5F13C5A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>60477C9B-E54D-FC9A-6A8E-6D8793E01D50</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>06188D70-095E-7A37-FC02-1F7637505ED9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

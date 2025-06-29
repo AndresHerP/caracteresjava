@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="82E6A982-8890-CFA8-52DE-8E39D922CBA9" containerWithKeyObject="2ED5B170-E4EB-9490-80FB-395B681CD4B0" localFKIndex="4CD71DC3-C81F-067F-E36F-97800241BF95" name="CITA_PACIENTE_FK">
+<sourceDDLFile>ERD_Prop-Int-1.4.ddl</sourceDDLFile>
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<importedID>C3C7CA7E-865A-2D59-4A22-035A0F9D885A</importedID>
+<referredTableLongName>PACIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1850A67D-8B26-9C9F-55B3-0C6AE65297D0</referredTableID>
+<keyObject>B5CD8F06-CD2F-E455-515C-720154F18F06</keyObject>
+<referredKeyID>B5CD8F06-CD2F-E455-515C-720154F18F06</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_PACIENTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

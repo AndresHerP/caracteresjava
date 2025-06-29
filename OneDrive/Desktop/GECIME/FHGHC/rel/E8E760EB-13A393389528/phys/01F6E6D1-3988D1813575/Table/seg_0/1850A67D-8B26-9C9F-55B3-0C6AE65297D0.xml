@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PACIENTE" directorySegmentName="seg_0" id="1850A67D-8B26-9C9F-55B3-0C6AE65297D0">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MATRICULA" id="36DAE2C0-D513-DD4A-92D5-CCBC9E09D0B3">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO" id="441798A7-B4D3-0BA5-2FDB-01E6005561EC">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<defaultValue>&apos;ACTIVO&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ID_CUENTA" id="50942277-1A13-5CE8-AD8B-D8086C5E8C54">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:16:53 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="8CFC34C7-BBE5-DE06-4B50-D99B1858007A">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CORREO" id="AE9CB5BD-654C-BC7F-38A1-F3BBF974610F">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PACIENTE" id="EC22A3D7-6573-7FC2-8C6A-06257234B55B">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PACIENTE_PK" id="B5CD8F06-CD2F-E455-515C-720154F18F06">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="INDEX_1" id="71BF7823-55E1-FD88-A5BE-BA585E4AF91D">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<nameChanged>true</nameChanged>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="INDEX_2" id="C4D243C3-874F-315C-B029-7BB82FC473F2">
+<createdBy>andre</createdBy>
+<createdTime>2025-06-29 20:06:38 UTC</createdTime>
+<ownerDesignName>FHGHC</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>
